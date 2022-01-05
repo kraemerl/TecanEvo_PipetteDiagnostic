@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecanMCA_PipetteDiagnostic", "TecanMCA_PipetteDiagnostic\TecanMCA_PipetteDiagnostic.csproj", "{8F4890EC-1D7C-4CC8-ACC4-1C6DA7BDB556}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecanEvo_PipetteDiagnostic", "TecanEvo_PipetteDiagnostic\TecanEvo_PipetteDiagnostic.csproj", "{8F4890EC-1D7C-4CC8-ACC4-1C6DA7BDB556}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

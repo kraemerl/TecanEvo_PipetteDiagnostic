@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TecanMCA_PipetteDiagnostic.Properties {
+namespace TecanEvo_PipetteDiagnostic.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace TecanMCA_PipetteDiagnostic.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("TecanMCA_PipetteDiagnostic.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("TecanEvo_PipetteDiagnostic.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

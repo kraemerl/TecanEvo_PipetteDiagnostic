@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TecanMCA_PipetteDiagnostic
+namespace TecanEvo_PipetteDiagnostic
 {
     class CPlateWell
     {

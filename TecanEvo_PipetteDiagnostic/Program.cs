@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TecanMCA_PipetteDiagnostic
+namespace TecanEvo_PipetteDiagnostic
 {
     static class Program
     {

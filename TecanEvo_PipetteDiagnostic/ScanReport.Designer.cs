@@ -1,4 +1,4 @@
-﻿namespace TecanMCA_PipetteDiagnostic
+﻿namespace TecanEvo_PipetteDiagnostic
 {
     partial class ScanReport
     {
@@ -38,14 +38,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.grdTransferOverview = new System.Windows.Forms.DataGridView();
-            this.butContinue = new System.Windows.Forms.Button();
-            this.butCancel = new System.Windows.Forms.Button();
-            this.lblTarget96Volume = new System.Windows.Forms.Label();
-            this.lblTarget96Concentration = new System.Windows.Forms.Label();
-            this.lblTargetConcentrationText = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lblTarget384Volume = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.source = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.patient_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sample_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -58,6 +50,12 @@
             this.destination_patient_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sample_needed = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.buffer_needed = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.butContinue = new System.Windows.Forms.Button();
+            this.butCancel = new System.Windows.Forms.Button();
+            this.lblTarget96Volume = new System.Windows.Forms.Label();
+            this.lblTarget96Concentration = new System.Windows.Forms.Label();
+            this.lblTargetConcentrationText = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.grdTransferOverview)).BeginInit();
             this.SuspendLayout();
             // 
@@ -122,89 +120,6 @@
             this.grdTransferOverview.ReadOnly = true;
             this.grdTransferOverview.Size = new System.Drawing.Size(942, 352);
             this.grdTransferOverview.TabIndex = 45;
-            // 
-            // butContinue
-            // 
-            this.butContinue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.butContinue.Enabled = false;
-            this.butContinue.Location = new System.Drawing.Point(798, 424);
-            this.butContinue.Name = "butContinue";
-            this.butContinue.Size = new System.Drawing.Size(75, 23);
-            this.butContinue.TabIndex = 51;
-            this.butContinue.Text = "Continue";
-            this.butContinue.UseVisualStyleBackColor = true;
-            this.butContinue.Click += new System.EventHandler(this.butContinue_Click);
-            // 
-            // butCancel
-            // 
-            this.butCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.butCancel.Location = new System.Drawing.Point(879, 424);
-            this.butCancel.Name = "butCancel";
-            this.butCancel.Size = new System.Drawing.Size(75, 23);
-            this.butCancel.TabIndex = 50;
-            this.butCancel.Text = "Cancel";
-            this.butCancel.UseVisualStyleBackColor = true;
-            this.butCancel.Click += new System.EventHandler(this.butCancel_Click);
-            // 
-            // lblTarget96Volume
-            // 
-            this.lblTarget96Volume.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblTarget96Volume.AutoSize = true;
-            this.lblTarget96Volume.Location = new System.Drawing.Point(927, 9);
-            this.lblTarget96Volume.Name = "lblTarget96Volume";
-            this.lblTarget96Volume.Size = new System.Drawing.Size(25, 13);
-            this.lblTarget96Volume.TabIndex = 55;
-            this.lblTarget96Volume.Text = "???";
-            // 
-            // lblTarget96Concentration
-            // 
-            this.lblTarget96Concentration.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblTarget96Concentration.AutoSize = true;
-            this.lblTarget96Concentration.Location = new System.Drawing.Point(927, 26);
-            this.lblTarget96Concentration.Name = "lblTarget96Concentration";
-            this.lblTarget96Concentration.Size = new System.Drawing.Size(25, 13);
-            this.lblTarget96Concentration.TabIndex = 54;
-            this.lblTarget96Concentration.Text = "???";
-            // 
-            // lblTargetConcentrationText
-            // 
-            this.lblTargetConcentrationText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblTargetConcentrationText.AutoSize = true;
-            this.lblTargetConcentrationText.Location = new System.Drawing.Point(723, 26);
-            this.lblTargetConcentrationText.Name = "lblTargetConcentrationText";
-            this.lblTargetConcentrationText.Size = new System.Drawing.Size(177, 13);
-            this.lblTargetConcentrationText.TabIndex = 53;
-            this.lblTargetConcentrationText.Text = "96well Target Concentration (ng/µl):";
-            // 
-            // label3
-            // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(723, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(129, 13);
-            this.label3.TabIndex = 52;
-            this.label3.Text = "96well Target Volume (µl):";
-            // 
-            // lblTarget384Volume
-            // 
-            this.lblTarget384Volume.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblTarget384Volume.AutoSize = true;
-            this.lblTarget384Volume.Location = new System.Drawing.Point(927, 44);
-            this.lblTarget384Volume.Name = "lblTarget384Volume";
-            this.lblTarget384Volume.Size = new System.Drawing.Size(25, 13);
-            this.lblTarget384Volume.TabIndex = 57;
-            this.lblTarget384Volume.Text = "???";
-            // 
-            // label5
-            // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(723, 44);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(135, 13);
-            this.label5.TabIndex = 56;
-            this.label5.Text = "384well Target Volume (µl):";
             // 
             // source
             // 
@@ -298,13 +213,74 @@
             this.buffer_needed.ReadOnly = true;
             this.buffer_needed.Width = 63;
             // 
+            // butContinue
+            // 
+            this.butContinue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.butContinue.Enabled = false;
+            this.butContinue.Location = new System.Drawing.Point(798, 424);
+            this.butContinue.Name = "butContinue";
+            this.butContinue.Size = new System.Drawing.Size(75, 23);
+            this.butContinue.TabIndex = 51;
+            this.butContinue.Text = "Continue";
+            this.butContinue.UseVisualStyleBackColor = true;
+            this.butContinue.Click += new System.EventHandler(this.butContinue_Click);
+            // 
+            // butCancel
+            // 
+            this.butCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.butCancel.Location = new System.Drawing.Point(879, 424);
+            this.butCancel.Name = "butCancel";
+            this.butCancel.Size = new System.Drawing.Size(75, 23);
+            this.butCancel.TabIndex = 50;
+            this.butCancel.Text = "Cancel";
+            this.butCancel.UseVisualStyleBackColor = true;
+            this.butCancel.Click += new System.EventHandler(this.butCancel_Click);
+            // 
+            // lblTarget96Volume
+            // 
+            this.lblTarget96Volume.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTarget96Volume.AutoSize = true;
+            this.lblTarget96Volume.Location = new System.Drawing.Point(927, 9);
+            this.lblTarget96Volume.Name = "lblTarget96Volume";
+            this.lblTarget96Volume.Size = new System.Drawing.Size(25, 13);
+            this.lblTarget96Volume.TabIndex = 55;
+            this.lblTarget96Volume.Text = "???";
+            // 
+            // lblTarget96Concentration
+            // 
+            this.lblTarget96Concentration.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTarget96Concentration.AutoSize = true;
+            this.lblTarget96Concentration.Location = new System.Drawing.Point(927, 26);
+            this.lblTarget96Concentration.Name = "lblTarget96Concentration";
+            this.lblTarget96Concentration.Size = new System.Drawing.Size(25, 13);
+            this.lblTarget96Concentration.TabIndex = 54;
+            this.lblTarget96Concentration.Text = "???";
+            // 
+            // lblTargetConcentrationText
+            // 
+            this.lblTargetConcentrationText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTargetConcentrationText.AutoSize = true;
+            this.lblTargetConcentrationText.Location = new System.Drawing.Point(723, 26);
+            this.lblTargetConcentrationText.Name = "lblTargetConcentrationText";
+            this.lblTargetConcentrationText.Size = new System.Drawing.Size(177, 13);
+            this.lblTargetConcentrationText.TabIndex = 53;
+            this.lblTargetConcentrationText.Text = "96well Target Concentration (ng/µl):";
+            // 
+            // label3
+            // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(723, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(129, 13);
+            this.label3.TabIndex = 52;
+            this.label3.Text = "96well Target Volume (µl):";
+            // 
             // ScanReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(966, 459);
-            this.Controls.Add(this.lblTarget384Volume);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.lblTarget96Volume);
             this.Controls.Add(this.lblTarget96Concentration);
             this.Controls.Add(this.lblTargetConcentrationText);
@@ -318,7 +294,7 @@
             this.Controls.Add(this.grdTransferOverview);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ScanReport";
-            this.Text = "EVO MCA: ScanReport";
+            this.Text = "EVO Evo: ScanReport";
             this.Load += new System.EventHandler(this.ScanReport_Load);
             ((System.ComponentModel.ISupportInitialize)(this.grdTransferOverview)).EndInit();
             this.ResumeLayout(false);
@@ -338,8 +314,6 @@
         private System.Windows.Forms.Label lblTarget96Concentration;
         private System.Windows.Forms.Label lblTargetConcentrationText;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label lblTarget384Volume;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DataGridView grdTransferOverview;
         private System.Windows.Forms.DataGridViewTextBoxColumn source;
         private System.Windows.Forms.DataGridViewTextBoxColumn patient_id;
