@@ -360,6 +360,7 @@ namespace TecanEvo_PipetteDiagnostic
                             cmd.CommandType = CommandType.StoredProcedure;
                             cmd.Parameters.Add("@sample_id", SqlDbType.Int).Value = plateWells[key].getSample();
                             cmd.Parameters.Add("@used_vol", SqlDbType.Decimal, 10).Value = plateWells[key].getSampleVol();
+                            cmd.Parameters.Add("@new_vol", SqlDbType.Decimal, 10).Direction = ParameterDirection.Output;
                             cmd.Transaction = trans;
                             cmd.ExecuteNonQuery();
                             cmd.Dispose();
